@@ -1,0 +1,36 @@
+PODS:
+  - DynamicBlurView (2.0.2)
+  - iosMath (0.9.4)
+  - PopupDialog (0.7.1):
+    - DynamicBlurView (~> 2.0)
+  - ScrollableGraphView (4.0.4)
+
+DEPENDENCIES:
+  - iosMath (from `https://github.com/kostub/iosMath.git`)
+  - PopupDialog (~> 0.7)
+  - ScrollableGraphView (from `https://github.com/barnaclejive/ScrollableGraphView`, branch `master`)
+
+EXTERNAL SOURCES:
+  iosMath:
+    :git: https://github.com/kostub/iosMath.git
+  ScrollableGraphView:
+    :branch: master
+    :git: https://github.com/barnaclejive/ScrollableGraphView
+
+CHECKOUT OPTIONS:
+  iosMath:
+    :commit: 89793d0f1f219649853bcc2d705d1e05ac832f87
+    :git: https://github.com/kostub/iosMath.git
+  ScrollableGraphView:
+    :commit: b13c6c43b0bd313269e14fb4f4665c4d3115a863
+    :git: https://github.com/barnaclejive/ScrollableGraphView
+
+SPEC CHECKSUMS:
+  DynamicBlurView: aa6db4defc6e537eb86fc5e58dd3991666178399
+  iosMath: f7a6cbadf9d836d2149c2a84c435b1effc244cba
+  PopupDialog: 39598b7d41719f5c025b4b70e62728bae7734fef
+  ScrollableGraphView: abac54d3493a5a198ade4baf4879967183af8a2c
+
+PODFILE CHECKSUM: ea3492d29d57bb0dc6a3d0671ffd361bd597400f
+
+COCOAPODS: 1.4.0

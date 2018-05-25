@@ -1,0 +1,1546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0569129A73F4CCBFAC5EACCF2ACD9378 /* MTMathListDisplayInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC9C21D34DCF2A64B4F00198A5E13F0 /* MTMathListDisplayInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		068B18E0283677F98A852ACDA5BD9906 /* ScrollableGraphViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE98D78AF2388E5DE4DDC6E18359C0A /* ScrollableGraphViewDataSource.swift */; };
+		0A2C8E9B279C99DF721711DEFEFE7C7F /* MTUnicode.h in Headers */ = {isa = PBXBuildFile; fileRef = 40478EA435E10CD25923D514E243FEF5 /* MTUnicode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E6D40D822484D9D37151A640247A50D /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD58D2F6B7C15F0772FD398592CF181 /* PresentationController.swift */; };
+		0F979D0A878062EA1DFD82B4ACE22C01 /* DynamicBlurView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478114D752E97D95AC6F19543D3FE81 /* DynamicBlurView-dummy.m */; };
+		1070F737EBE68FA4C52ABB9CFF82557D /* PopupDialogContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293C5085B60995BA931D89BF97642CB /* PopupDialogContainerView.swift */; };
+		11335AF651D7CE99BC7775A05F84FC2C /* FillDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F5802AD64C58D59CD6F17723322C3 /* FillDrawingLayer.swift */; };
+		1228AD9F0B154CCB78AD3799321ABA38 /* MTMathListDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 67380C0E11AEF83E34FDB8C5DD00569C /* MTMathListDisplay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12B64D1492C171CCD24BF8F3192936EC /* MTLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9B746FA087A1EAE93399AC482C763C /* MTLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13D9CA9195B99258A31998AC19E00F0D /* NSBezierPath+addLineToPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 59B210235991021070A27C361B76C317 /* NSBezierPath+addLineToPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15422D71098AD0862AE4119D739C075E /* MTMathAtomFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE17149FBC2C1987236647C9550B929 /* MTMathAtomFactory.m */; };
+		17E3DD6AEE7AB28B265FE2608706BB9B /* DotDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F066316F2D6D43121AA05192775B57F5 /* DotDrawingLayer.swift */; };
+		1BD95819A67825305691F9D03A1477E3 /* DynamicBlurView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 721C02FFDD3374FCD29F836319467D6C /* DynamicBlurView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E43A2F7FDCA05DFAA491CA06586DFB6 /* ScrollableGraphViewDrawingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C29EF2C116E1385227AE67201D06450 /* ScrollableGraphViewDrawingDelegate.swift */; };
+		1E58057D86D62940950F189FA7FC5A96 /* MTMathListIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 007FBE10F175D454E568DE3621032CBC /* MTMathListIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2270E26CA635D8A7510A363D21A95B32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC8C06E4FA75F99EB8710C7A80746FE /* UIKit.framework */; };
+		23B3BF994E3D6D80EB8F3445347A41D4 /* iosMath-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D45D434D9FC401B138F54DC5A9AC073 /* iosMath-dummy.m */; };
+		25CAFA35B0F1DA308A8ED1378277F8B4 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4880D8C4A2112F4D360D213496A1D740 /* TransitionAnimator.swift */; };
+		28ED3A0B865E123C4771247A91948365 /* texgyretermes-math.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60BB2501E79F69027453E3CF1CF0A342 /* texgyretermes-math.plist */; };
+		291DAF3612ECDA472EDFE4AE52B35D01 /* NSColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 783832EAE12C2FF9E20AF1F076D33390 /* NSColor+HexString.m */; };
+		2B0FFB0293BB37BFB9D5980BB2E4EFAD /* iosMath-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EA26DD00FD836F75C8014934E58C31C /* iosMath-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BFD0E9FE1043E956F6D321F6699F42A /* LineDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CB2FFE4260BCFF399491A518851CE /* LineDrawingLayer.swift */; };
+		2E82EC8E7E191BB01B06896A5878EAEE /* MTUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F95DEF3367B19F36AD68C9E6A096F /* MTUnicode.m */; };
+		2F6D143061A37F1799C4E9E70178679C /* DynamicBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92EF20539E5671F64CFAFA328938FA85 /* DynamicBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		343D35ABA728B4C88F447B46989ABF4A /* TransitionAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AA9BAE9BCB0594EF1117C61612683A /* TransitionAnimations.swift */; };
+		3448D8A3D10EF20FD4AB10070A211F53 /* GradientDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A3C6E785A882A76C4A8E5116D2218B /* GradientDrawingLayer.swift */; };
+		345ED928F89929FF0C0BDE7F03E28C73 /* MTFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2553DF32432E55BDF1248878415DDF /* MTFontManager.m */; };
+		360DF25B3613FC65E4AE08EBDD701A78 /* NSView+backgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C656E084E08E4AB2639CCA47487DF /* NSView+backgroundColor.m */; };
+		38BEB4DB4CD2868FFB8423CC89BF3B6A /* UIImageView+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A790B7132C2BC4F305112366D244BD /* UIImageView+Calculations.swift */; };
+		3C52440D21838C1CF1448A4E9C66099B /* PopupDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38448D9619145CD0C9AEA54C52D482E7 /* PopupDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40004858D2D5D91753A668F7807EDA0E /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A011974E7175A2B0B98523E82F246D4 /* UIColor+HexString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4427E7731DD5C19A86A90C4FD2C2CF64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8E72F54CE2313F66C9155A8F738315 /* Foundation.framework */; };
+		46948DAFC76CE60532EB6D1C3D4D06EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8E72F54CE2313F66C9155A8F738315 /* Foundation.framework */; };
+		4A1F92D0762FD1421494AD4495B56D02 /* mathFonts.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D8DAEDF7E181C14CC68A8D1DA737DE1A /* mathFonts.bundle */; };
+		4FED369F179E9D7F1148277C3E19327D /* MTFontManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ECF04EB4EECA7466C84246E606FFB6C /* MTFontManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51FBFE99A807416D5FE5C2E887EC73BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8E72F54CE2313F66C9155A8F738315 /* Foundation.framework */; };
+		53FAB5D3C67126430AA48FD307FE912D /* UIViewController+Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA07FD9307EA553D4CCDDCE04C54C1A /* UIViewController+Visibility.swift */; };
+		597729D737391573A57C9AF8D30E2626 /* PopupDialogDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC165D23A0BBA87685A1E6B00A4EF3B5 /* PopupDialogDefaultView.swift */; };
+		5CCEFF8002AA2BC6644F85341EE0691D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8053D7687017D783F8B4CA1905AD4647 /* CoreText.framework */; };
+		5D19BAE8B0155836806C26876E2F812A /* CGImage+Accelerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11EDC6AD3ACB3124F05F52EFDDAEDC5 /* CGImage+Accelerate.swift */; };
+		5D74114FF0995C785F41BC997970809B /* NSView+backgroundColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A7BD84ACEC9EC9121F953CF3FB55A00 /* NSView+backgroundColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E5CD7A6FA33927CB1E772E0F50C5EB3 /* InteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88395591700822406B7210E5E5F87595 /* InteractiveTransition.swift */; };
+		608FF6E4BCB0660D1D6D9DB0FF6B22FC /* DynamicBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560174FB0B7E6ABC5E0894E74FBE90DB /* DynamicBlurView.swift */; };
+		61D2241036E64E0CE53C3FBF397F99FD /* ReferenceLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA26B68F83A2AA988A24FCEA02E0964 /* ReferenceLines.swift */; };
+		63C576FD079ED3EB1A5092F6F39BDF28 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C9653B0F82C1DC305FFFD4BEC52FBA /* Accelerate.framework */; };
+		665E3546BB7241010732DD59502C2A20 /* DynamicBlurView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F36A28F49D1154E45043941C164FCA6E /* DynamicBlurView.framework */; };
+		6A47F003A84A7C856CCBFBE1EE82C8BD /* ReferenceLineDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994CE55ABC43614CBF035F634145BFFB /* ReferenceLineDrawingView.swift */; };
+		6C1E56CFB256AF1C64069DA54167A8BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC8C06E4FA75F99EB8710C7A80746FE /* UIKit.framework */; };
+		6C8A47148EBD541AC12C11E60C51EF12 /* texgyretermes-math.otf in Resources */ = {isa = PBXBuildFile; fileRef = E46F8FF10ABD5189AC064E6B90C3291A /* texgyretermes-math.otf */; };
+		72763BA40BBEB214F29FF33DE5FB907C /* CaptureQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = D879976FD31D82242AEA1D6F65CC5DDC /* CaptureQuality.swift */; };
+		7712EC2BCCF93BDC4DA2A6E1F69ECECE /* MTConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A0CCC169B797879E7398143BB829AF /* MTConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C4732379298E1D5EB259E97B75A55B4 /* MTMathListDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F147E965C1A64034BFE596CEF7D2217 /* MTMathListDisplay.m */; };
+		7FB297871262D6B48318325D699CE2DA /* PopupDialogOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6CE2AECEBE963EF5B9537ADB61FBCD /* PopupDialogOverlayView.swift */; };
+		81F978B8EC3ABDF403F25BCE95A66B4B /* PopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F667742005624034684804516F868C /* PopupDialog.swift */; };
+		8237D2C7CA0BAA6702DFEFC18156C6FE /* MTMathListIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B15DE68B5A9D21DF4764D14D8F16ACC /* MTMathListIndex.m */; };
+		82BD34CDF279D0AC1810CDE02EF4C156 /* UIImage+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF6B3B503188DF8C671F1D15133B59 /* UIImage+Blur.swift */; };
+		8A59895B998232336892E32BD096DC78 /* MTMathListBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 038A5D2851B4CCA765BF45902EB2F9EE /* MTMathListBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3D8E565618EEE0C9D89D01647A48F3 /* MTMathUILabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A9B46B6F9DCF3DD661F7716EA5950B5 /* MTMathUILabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E03F6BE20C39B0BE0BAF955A2B4596D /* PopupDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8D1DE75008D18DCE3AAD17FC3734EE /* PopupDialog-dummy.m */; };
+		8E91BAFC90BF1360D36006CD4267872C /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC03089F823BBDC18A227653EA5659 /* UIView+Animations.swift */; };
+		91BB115206E501BF66351EE8C1130509 /* MTFont+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = BDABAC0B55C288CAB0DE33FFBE11159A /* MTFont+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		953B1521BC900940EAA32BEFB5F8B55F /* GraphPointAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E5B7A5E57C5B1C3AFD954879057369 /* GraphPointAnimation.swift */; };
+		9584B98DAE3E860B6AB5EA9781DC7057 /* BlurLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE3D7E76BA9850B3F7D0D20ED28D41 /* BlurLayer.swift */; };
+		9832BE8BC2653B41124DC5360482D1E9 /* MTMathListBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6406BB3D57EAC8F96EA65CEDB9E72E /* MTMathListBuilder.m */; };
+		98ED3314C49686204911BF0429078FE4 /* LabelPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802E2340BAA7444B680E0A65C3C948CA /* LabelPool.swift */; };
+		9A6A7DD03DCAB0F64C989C5DFFF02524 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8E72F54CE2313F66C9155A8F738315 /* Foundation.framework */; };
+		9A84633A4F3FA1B4C01F969F074B9F6F /* DotPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB9FD466587022CC0AA56C8753BF5A /* DotPlot.swift */; };
+		9B4C90885CF053F41318A1670C86CD6F /* MTMathUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 165732C400F685546244433E7CC813AE /* MTMathUILabel.m */; };
+		9BC5A7CEF1FBF9E02C9C412DF84D5103 /* Plot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C16064D8A5278B32903B048EB73252A /* Plot.swift */; };
+		9D4F71C5ED696ECF7EE08CC4FC7E320F /* MTTypesetter.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F92A1FC05D7EF4BE3ABB57279ED02 /* MTTypesetter.m */; };
+		9FEBBD97E5221D1FFD9F76EF8DA0B20D /* MTFontMathTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA051A1F16574F77DC0B76593591C3F /* MTFontMathTable.m */; };
+		A46DF437994FCB34396E2022EC0DD70B /* Pods-ProbabilityProject1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 794BB1BD6521EC3A723F099AF862B424 /* Pods-ProbabilityProject1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A521A12A909725FD66A5D7F5287BE726 /* ScrollableGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8844DE9B7ED186B535F1C4B5E980162F /* ScrollableGraphView.swift */; };
+		A962531423E2DDB49B6C6F9EC8FB0B23 /* MTMathAtomFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 676837B1541CB57458A7855D2537709F /* MTMathAtomFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE8577599D6E3739E47E6A99E5A8B51E /* BarPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854AB99459BE71F372F040208378F3A7 /* BarPlot.swift */; };
+		B1794FAA02443F2E381EF8B0D3581DDA /* PopupDialogDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6659213719B0D7942AF574D4D2B6349F /* PopupDialogDefaultViewController.swift */; };
+		B3C2AC70552A3CC2025F634FA68166F3 /* MTMathList.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C4396862DF4D9308177098D639C3BA4 /* MTMathList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5FBBD6417C5D368D22AC02A965CAE6D /* PopupDialogDefaultButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE79F99171F3D2BB035DFB72AE70D074 /* PopupDialogDefaultButtons.swift */; };
+		B6C2A731A25088CCD015D7FC788B31DE /* BarDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD2D5A62385717E477A65D551C54FD /* BarDrawingLayer.swift */; };
+		B84181E34A1DE69138863445C3487A7E /* latinmodern-math.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D8FFDB0545179455D566BCD13B9120D /* latinmodern-math.plist */; };
+		B85ADAA137335CEDDA3C7C074E69A14A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8E72F54CE2313F66C9155A8F738315 /* Foundation.framework */; };
+		BF9AA245DD1FDF5F7403B063BA73F6DE /* MTFontMathTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 897543A6835F2B75F20CB1FAFA2C4869 /* MTFontMathTable.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C0A3B092E1F2A5BBE005A99C8E2D34F8 /* xits-math.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19BC4B9B9AFC6F6411EAC962CDDD4167 /* xits-math.otf */; };
+		C2DB0E4B4EC4B4DF8EA4B96FB78FBA99 /* TrackingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AB23442340A2847B388BA916AFA88F /* TrackingMode.swift */; };
+		C2F508F5484662EE4947509BC8B426AE /* PopupDialogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D8710D15CF96275EBD60B7A05D1A02 /* PopupDialogButton.swift */; };
+		C7ECA402896A22B10C8D7E5D18670103 /* LinePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FACBCAF5F39EAE28B3551022E35D38 /* LinePlot.swift */; };
+		CAD3FE38E609A6D7D15D1A4E45FE1E23 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B53C4C27FD8F935399C99CFB7E83D /* QuartzCore.framework */; };
+		CB605661EB846D7516A2A2751F00892F /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53301BBD50A645C307B91820C64CC932 /* PresentationManager.swift */; };
+		CD85322A3EC0BE6E926A0FF7C2EA860B /* ScrollableGraphView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C2BEFE42E2F738841FAF38B31A25386 /* ScrollableGraphView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE90381180386B8A7B6E1FFBFD983653 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312E4B3565195799A8B2D9C116C10F8D /* CoreGraphics.framework */; };
+		D4676C5CFBFC4FA7225A9C8D4A74C205 /* GraphPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F55D59545A24C404AAECA594B3CD90 /* GraphPoint.swift */; };
+		D4FC6C3FDE71A50CF6EF7C2314842EDB /* PopupDialog+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19A668CD88D143113035424BA4690C0 /* PopupDialog+Keyboard.swift */; };
+		D638FDBD8E1B42730BF21A96957E6333 /* MTFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D0C85DCD7838F5190EDA13467F9B47 /* MTFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7BD219908E82FB0172EC968207DA53F /* MTTypesetter.h in Headers */ = {isa = PBXBuildFile; fileRef = DA7B73CD7C6F5D357BC90C24A23D17FB /* MTTypesetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D7D27E45B3C991BF009F9DA45040E32D /* NSColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 582C15F7ED6264FF9F652B60B25FA4C0 /* NSColor+HexString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8449F714B62261A8990DB90D0B1475E /* ScrollableGraphView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244D810F2010C66342F9068509B2BA6 /* ScrollableGraphView-dummy.m */; };
+		DDF7FE8E1BD267A3C40BCF279E383676 /* NSBezierPath+addLineToPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 749EC44FEAFE08C6848D1478C48250AE /* NSBezierPath+addLineToPoint.m */; };
+		DF8328E83B499955E1E720CF5CABD073 /* IosMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 00F93988C767ACE7B988D1C317F010B1 /* IosMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E03E6526671FBEC932CDB823CF120C05 /* latinmodern-math.otf in Resources */ = {isa = PBXBuildFile; fileRef = 022DA20D9F01EF95A80D1030C8C6243E /* latinmodern-math.otf */; };
+		E84C11B55DC11CCD17CF8F32C5CDAA29 /* Pods-ProbabilityProject1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BB64B764F914C97DCEC61A81280139 /* Pods-ProbabilityProject1-dummy.m */; };
+		EF134C47FA11A70DB831CEF726F99C6B /* MTMathList.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DDEF21E0CE6A0B3A4D0DE419A076CE /* MTMathList.m */; };
+		F3C49220F0A9F340CF968F2383991F88 /* MTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEA526650A7DCC0F168D4187D6E8F54 /* MTLabel.m */; };
+		F3E07CDB17F36B181258FEB75A790849 /* xits-math.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF00E1047BA117D30C17A327D48CD8A2 /* xits-math.plist */; };
+		F66294E94F125ADE253B7D65C67D0754 /* MTFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BB071E8163B40C1F7DB738DEEB8977 /* MTFont.m */; };
+		FB5CECAD4729CF846E332E692D1673B1 /* CGContext+CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC92E518889B733FA7C71ED7DE4F7B5 /* CGContext+CGImage.swift */; };
+		FE23CBBED482856FFEEEE6AED8BF92A1 /* ScrollableGraphViewDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB87692DD6EF9E039F88DD610A943CA /* ScrollableGraphViewDrawingLayer.swift */; };
+		FEE2C6E9682BFC48EF9F3DC176F4A29D /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D5EA79796105C05963B4D9CB80C3F9 /* UIColor+HexString.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2507C96826918DA29B95E8AA88C1D50F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B2F702A8B0B2E4FE2AF5DD816057E7;
+			remoteInfo = iosMath;
+		};
+		4CD53B7DAE85022A188C7AF47DA2E7E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31F8DDD8C30766AD7119207C1E552FFC;
+			remoteInfo = ScrollableGraphView;
+		};
+		86C78BB9E0F81B78E525B492B696A682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CD0FEB7EF1FA45DA48BDF24901E27B7;
+			remoteInfo = PopupDialog;
+		};
+		8A1AECC31ED4918F0F3EDAD64CAA76D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AD6E417B292CCB529632F0FA6F2EFEC;
+			remoteInfo = DynamicBlurView;
+		};
+		DDF7C1A1C905720CE4A49027041AB104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B9836C06662F6AF26CF13501848D275;
+			remoteInfo = "iosMath-mathFonts";
+		};
+		E92AEA5BE3E68D1F18640F84F058492C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AD6E417B292CCB529632F0FA6F2EFEC;
+			remoteInfo = DynamicBlurView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007FBE10F175D454E568DE3621032CBC /* MTMathListIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTMathListIndex.h; path = iosMath/lib/MTMathListIndex.h; sourceTree = "<group>"; };
+		00F93988C767ACE7B988D1C317F010B1 /* IosMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IosMath.h; path = iosMath/IosMath.h; sourceTree = "<group>"; };
+		0160D71369E4AA2994ED3B39F1DBE7CC /* ResourceBundle-mathFonts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-mathFonts-Info.plist"; sourceTree = "<group>"; };
+		01C9653B0F82C1DC305FFFD4BEC52FBA /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		022DA20D9F01EF95A80D1030C8C6243E /* latinmodern-math.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = "latinmodern-math.otf"; path = "fonts/latinmodern-math.otf"; sourceTree = "<group>"; };
+		038A5D2851B4CCA765BF45902EB2F9EE /* MTMathListBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTMathListBuilder.h; path = iosMath/lib/MTMathListBuilder.h; sourceTree = "<group>"; };
+		0478114D752E97D95AC6F19543D3FE81 /* DynamicBlurView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicBlurView-dummy.m"; sourceTree = "<group>"; };
+		078A993F1856329125EEB135DD53B8DD /* ScrollableGraphView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollableGraphView-prefix.pch"; sourceTree = "<group>"; };
+		0EA26DD00FD836F75C8014934E58C31C /* iosMath-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iosMath-umbrella.h"; sourceTree = "<group>"; };
+		0ECF04EB4EECA7466C84246E606FFB6C /* MTFontManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTFontManager.h; path = iosMath/render/MTFontManager.h; sourceTree = "<group>"; };
+		10D0C85DCD7838F5190EDA13467F9B47 /* MTFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTFont.h; path = iosMath/render/MTFont.h; sourceTree = "<group>"; };
+		12F9226A4949236DDD9D57D2526E96D8 /* PopupDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-prefix.pch"; sourceTree = "<group>"; };
+		143AF7A72236E0243FE8DC01C8DD58F3 /* PopupDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupDialog.xcconfig; sourceTree = "<group>"; };
+		165732C400F685546244433E7CC813AE /* MTMathUILabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTMathUILabel.m; path = iosMath/render/MTMathUILabel.m; sourceTree = "<group>"; };
+		186F5802AD64C58D59CD6F17723322C3 /* FillDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillDrawingLayer.swift; path = Classes/Drawing/FillDrawingLayer.swift; sourceTree = "<group>"; };
+		19BC4B9B9AFC6F6411EAC962CDDD4167 /* xits-math.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = "xits-math.otf"; path = "fonts/xits-math.otf"; sourceTree = "<group>"; };
+		1A011974E7175A2B0B98523E82F246D4 /* UIColor+HexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexString.h"; path = "iosMath/render/UIColor+HexString.h"; sourceTree = "<group>"; };
+		1B8289CBA8EB50F3041952A2C7584CA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C16064D8A5278B32903B048EB73252A /* Plot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Plot.swift; path = Classes/Plots/Plot.swift; sourceTree = "<group>"; };
+		1DC9C21D34DCF2A64B4F00198A5E13F0 /* MTMathListDisplayInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTMathListDisplayInternal.h; path = iosMath/render/internal/MTMathListDisplayInternal.h; sourceTree = "<group>"; };
+		2244D810F2010C66342F9068509B2BA6 /* ScrollableGraphView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScrollableGraphView-dummy.m"; sourceTree = "<group>"; };
+		24E5B7A5E57C5B1C3AFD954879057369 /* GraphPointAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphPointAnimation.swift; path = Classes/Plots/Animation/GraphPointAnimation.swift; sourceTree = "<group>"; };
+		2A7BD84ACEC9EC9121F953CF3FB55A00 /* NSView+backgroundColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSView+backgroundColor.h"; path = "iosMath/render/NSView+backgroundColor.h"; sourceTree = "<group>"; };
+		2B5E07186D6F4ACC33075DDEC2579799 /* iosMath.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iosMath.modulemap; sourceTree = "<group>"; };
+		2BA26B68F83A2AA988A24FCEA02E0964 /* ReferenceLines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReferenceLines.swift; path = Classes/Reference/ReferenceLines.swift; sourceTree = "<group>"; };
+		2BE98D78AF2388E5DE4DDC6E18359C0A /* ScrollableGraphViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableGraphViewDataSource.swift; path = Classes/Protocols/ScrollableGraphViewDataSource.swift; sourceTree = "<group>"; };
+		2F208A1FD5B1E38ADB1887C3F0F15CC1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F6CE2AECEBE963EF5B9537ADB61FBCD /* PopupDialogOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogOverlayView.swift; path = PopupDialog/Classes/PopupDialogOverlayView.swift; sourceTree = "<group>"; };
+		312E4B3565195799A8B2D9C116C10F8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		33A790B7132C2BC4F305112366D244BD /* UIImageView+Calculations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Calculations.swift"; path = "PopupDialog/Classes/UIImageView+Calculations.swift"; sourceTree = "<group>"; };
+		35CB438F58C6310569848BED4F674E44 /* ScrollableGraphView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollableGraphView.xcconfig; sourceTree = "<group>"; };
+		36AB23442340A2847B388BA916AFA88F /* TrackingMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackingMode.swift; path = DynamicBlurView/TrackingMode.swift; sourceTree = "<group>"; };
+		38448D9619145CD0C9AEA54C52D482E7 /* PopupDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-umbrella.h"; sourceTree = "<group>"; };
+		39793B044EFEFB4DA2F9DBA8C4F4762A /* Pods-ProbabilityProject1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProbabilityProject1.release.xcconfig"; sourceTree = "<group>"; };
+		3B15DE68B5A9D21DF4764D14D8F16ACC /* MTMathListIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTMathListIndex.m; path = iosMath/lib/MTMathListIndex.m; sourceTree = "<group>"; };
+		3C29EF2C116E1385227AE67201D06450 /* ScrollableGraphViewDrawingDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableGraphViewDrawingDelegate.swift; path = Classes/Protocols/ScrollableGraphViewDrawingDelegate.swift; sourceTree = "<group>"; };
+		3C4396862DF4D9308177098D639C3BA4 /* MTMathList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTMathList.h; path = iosMath/lib/MTMathList.h; sourceTree = "<group>"; };
+		40478EA435E10CD25923D514E243FEF5 /* MTUnicode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTUnicode.h; path = iosMath/lib/MTUnicode.h; sourceTree = "<group>"; };
+		425A3DC06278D69A37AC5877C64C66B4 /* iosMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iosMath.framework; path = iosMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4293C5085B60995BA931D89BF97642CB /* PopupDialogContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogContainerView.swift; path = PopupDialog/Classes/PopupDialogContainerView.swift; sourceTree = "<group>"; };
+		45AC2FDFF2F44EEF82F9B67D9EA0D77F /* iosMath-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iosMath-prefix.pch"; sourceTree = "<group>"; };
+		48305973155E79A93BB2C51FB17BD6DA /* ScrollableGraphView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScrollableGraphView.modulemap; sourceTree = "<group>"; };
+		4880D8C4A2112F4D360D213496A1D740 /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = PopupDialog/Classes/TransitionAnimator.swift; sourceTree = "<group>"; };
+		49A033C6A2F09C010A26A2E26F19E0AD /* iosMath.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iosMath.xcconfig; sourceTree = "<group>"; };
+		4C23215EE4B84CA0F1B037CC332D611F /* PopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PopupDialog.framework; path = PopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6F95DEF3367B19F36AD68C9E6A096F /* MTUnicode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTUnicode.m; path = iosMath/lib/MTUnicode.m; sourceTree = "<group>"; };
+		4D45D434D9FC401B138F54DC5A9AC073 /* iosMath-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iosMath-dummy.m"; sourceTree = "<group>"; };
+		4DFF6B3B503188DF8C671F1D15133B59 /* UIImage+Blur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Blur.swift"; path = "DynamicBlurView/UIImage+Blur.swift"; sourceTree = "<group>"; };
+		53301BBD50A645C307B91820C64CC932 /* PresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationManager.swift; path = PopupDialog/Classes/PresentationManager.swift; sourceTree = "<group>"; };
+		560174FB0B7E6ABC5E0894E74FBE90DB /* DynamicBlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicBlurView.swift; path = DynamicBlurView/DynamicBlurView.swift; sourceTree = "<group>"; };
+		582C15F7ED6264FF9F652B60B25FA4C0 /* NSColor+HexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSColor+HexString.h"; path = "iosMath/render/NSColor+HexString.h"; sourceTree = "<group>"; };
+		588ED75C18FB2664C89916E41C58DCB4 /* Pods-ProbabilityProject1-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProbabilityProject1-frameworks.sh"; sourceTree = "<group>"; };
+		58F5E23D4A0A312C843840FC51B8108B /* ScrollableGraphView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ScrollableGraphView.framework; path = ScrollableGraphView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B210235991021070A27C361B76C317 /* NSBezierPath+addLineToPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+addLineToPoint.h"; path = "iosMath/render/NSBezierPath+addLineToPoint.h"; sourceTree = "<group>"; };
+		59FC03089F823BBDC18A227653EA5659 /* UIView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animations.swift"; path = "PopupDialog/Classes/UIView+Animations.swift"; sourceTree = "<group>"; };
+		5A9B46B6F9DCF3DD661F7716EA5950B5 /* MTMathUILabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTMathUILabel.h; path = iosMath/render/MTMathUILabel.h; sourceTree = "<group>"; };
+		5C2BEFE42E2F738841FAF38B31A25386 /* ScrollableGraphView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollableGraphView-umbrella.h"; sourceTree = "<group>"; };
+		5ED5BAD0C1A59DD1BE82E6790489348E /* Pods-ProbabilityProject1-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProbabilityProject1-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F147E965C1A64034BFE596CEF7D2217 /* MTMathListDisplay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTMathListDisplay.m; path = iosMath/render/MTMathListDisplay.m; sourceTree = "<group>"; };
+		60BB2501E79F69027453E3CF1CF0A342 /* texgyretermes-math.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "texgyretermes-math.plist"; path = "fonts/texgyretermes-math.plist"; sourceTree = "<group>"; };
+		65BB071E8163B40C1F7DB738DEEB8977 /* MTFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTFont.m; path = iosMath/render/MTFont.m; sourceTree = "<group>"; };
+		6659213719B0D7942AF574D4D2B6349F /* PopupDialogDefaultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultViewController.swift; path = PopupDialog/Classes/PopupDialogDefaultViewController.swift; sourceTree = "<group>"; };
+		67380C0E11AEF83E34FDB8C5DD00569C /* MTMathListDisplay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTMathListDisplay.h; path = iosMath/render/MTMathListDisplay.h; sourceTree = "<group>"; };
+		676837B1541CB57458A7855D2537709F /* MTMathAtomFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTMathAtomFactory.h; path = iosMath/lib/MTMathAtomFactory.h; sourceTree = "<group>"; };
+		67BB7C14173500058C03F0E8ACFD163D /* DynamicBlurView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicBlurView.xcconfig; sourceTree = "<group>"; };
+		69D8710D15CF96275EBD60B7A05D1A02 /* PopupDialogButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogButton.swift; path = PopupDialog/Classes/PopupDialogButton.swift; sourceTree = "<group>"; };
+		6B5CB2FFE4260BCFF399491A518851CE /* LineDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineDrawingLayer.swift; path = Classes/Drawing/LineDrawingLayer.swift; sourceTree = "<group>"; };
+		721C02FFDD3374FCD29F836319467D6C /* DynamicBlurView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicBlurView-umbrella.h"; sourceTree = "<group>"; };
+		749EC44FEAFE08C6848D1478C48250AE /* NSBezierPath+addLineToPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBezierPath+addLineToPoint.m"; path = "iosMath/render/NSBezierPath+addLineToPoint.m"; sourceTree = "<group>"; };
+		752F67290CF90B7A6F4AAC8AF33710A0 /* Pods-ProbabilityProject1-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProbabilityProject1-acknowledgements.plist"; sourceTree = "<group>"; };
+		783832EAE12C2FF9E20AF1F076D33390 /* NSColor+HexString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSColor+HexString.m"; path = "iosMath/render/NSColor+HexString.m"; sourceTree = "<group>"; };
+		794BB1BD6521EC3A723F099AF862B424 /* Pods-ProbabilityProject1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProbabilityProject1-umbrella.h"; sourceTree = "<group>"; };
+		7D8FFDB0545179455D566BCD13B9120D /* latinmodern-math.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "latinmodern-math.plist"; path = "fonts/latinmodern-math.plist"; sourceTree = "<group>"; };
+		802E2340BAA7444B680E0A65C3C948CA /* LabelPool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelPool.swift; path = Classes/Reference/LabelPool.swift; sourceTree = "<group>"; };
+		8053D7687017D783F8B4CA1905AD4647 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		854AB99459BE71F372F040208378F3A7 /* BarPlot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPlot.swift; path = Classes/Plots/BarPlot.swift; sourceTree = "<group>"; };
+		88395591700822406B7210E5E5F87595 /* InteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveTransition.swift; path = PopupDialog/Classes/InteractiveTransition.swift; sourceTree = "<group>"; };
+		8844DE9B7ED186B535F1C4B5E980162F /* ScrollableGraphView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableGraphView.swift; path = Classes/ScrollableGraphView.swift; sourceTree = "<group>"; };
+		897543A6835F2B75F20CB1FAFA2C4869 /* MTFontMathTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTFontMathTable.h; path = iosMath/render/internal/MTFontMathTable.h; sourceTree = "<group>"; };
+		8A2553DF32432E55BDF1248878415DDF /* MTFontManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTFontManager.m; path = iosMath/render/MTFontManager.m; sourceTree = "<group>"; };
+		8AE17149FBC2C1987236647C9550B929 /* MTMathAtomFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTMathAtomFactory.m; path = iosMath/lib/MTMathAtomFactory.m; sourceTree = "<group>"; };
+		8D5C656E084E08E4AB2639CCA47487DF /* NSView+backgroundColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSView+backgroundColor.m"; path = "iosMath/render/NSView+backgroundColor.m"; sourceTree = "<group>"; };
+		92EF20539E5671F64CFAFA328938FA85 /* DynamicBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicBlurView.h; path = DynamicBlurView/DynamicBlurView.h; sourceTree = "<group>"; };
+		935EB8BD4B226236A1E5D2A96F92B806 /* Pods-ProbabilityProject1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ProbabilityProject1.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		994CE55ABC43614CBF035F634145BFFB /* ReferenceLineDrawingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReferenceLineDrawingView.swift; path = Classes/Drawing/ReferenceLineDrawingView.swift; sourceTree = "<group>"; };
+		9BA07FD9307EA553D4CCDDCE04C54C1A /* UIViewController+Visibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Visibility.swift"; path = "PopupDialog/Classes/UIViewController+Visibility.swift"; sourceTree = "<group>"; };
+		9FA051A1F16574F77DC0B76593591C3F /* MTFontMathTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTFontMathTable.m; path = iosMath/render/internal/MTFontMathTable.m; sourceTree = "<group>"; };
+		A0DF3C2E7ED3965D63D49F1FCE37F9BD /* DynamicBlurView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DynamicBlurView.modulemap; sourceTree = "<group>"; };
+		A0F55D59545A24C404AAECA594B3CD90 /* GraphPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphPoint.swift; path = Classes/Plots/Animation/GraphPoint.swift; sourceTree = "<group>"; };
+		A19A668CD88D143113035424BA4690C0 /* PopupDialog+Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopupDialog+Keyboard.swift"; path = "PopupDialog/Classes/PopupDialog+Keyboard.swift"; sourceTree = "<group>"; };
+		A1AA9BAE9BCB0594EF1117C61612683A /* TransitionAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimations.swift; path = PopupDialog/Classes/TransitionAnimations.swift; sourceTree = "<group>"; };
+		A6A3C6E785A882A76C4A8E5116D2218B /* GradientDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientDrawingLayer.swift; path = Classes/Drawing/GradientDrawingLayer.swift; sourceTree = "<group>"; };
+		A6BB64B764F914C97DCEC61A81280139 /* Pods-ProbabilityProject1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProbabilityProject1-dummy.m"; sourceTree = "<group>"; };
+		AC6406BB3D57EAC8F96EA65CEDB9E72E /* MTMathListBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTMathListBuilder.m; path = iosMath/lib/MTMathListBuilder.m; sourceTree = "<group>"; };
+		AC8D1DE75008D18DCE3AAD17FC3734EE /* PopupDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopupDialog-dummy.m"; sourceTree = "<group>"; };
+		AE4F92A1FC05D7EF4BE3ABB57279ED02 /* MTTypesetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTTypesetter.m; path = iosMath/render/internal/MTTypesetter.m; sourceTree = "<group>"; };
+		AFC92E518889B733FA7C71ED7DE4F7B5 /* CGContext+CGImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGContext+CGImage.swift"; path = "DynamicBlurView/CGContext+CGImage.swift"; sourceTree = "<group>"; };
+		B0DD2D5A62385717E477A65D551C54FD /* BarDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarDrawingLayer.swift; path = Classes/Drawing/BarDrawingLayer.swift; sourceTree = "<group>"; };
+		B5AA2EDD979F9F6D443A5561903526B8 /* DynamicBlurView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DynamicBlurView.framework; path = DynamicBlurView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B706CCF0103D7AD5AB7E07D8E2346121 /* Pods_ProbabilityProject1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProbabilityProject1.framework; path = "Pods-ProbabilityProject1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC165D23A0BBA87685A1E6B00A4EF3B5 /* PopupDialogDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultView.swift; path = PopupDialog/Classes/PopupDialogDefaultView.swift; sourceTree = "<group>"; };
+		BD0CECDE16C47BBA77533AD2C3909054 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD8E72F54CE2313F66C9155A8F738315 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BDABAC0B55C288CAB0DE33FFBE11159A /* MTFont+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MTFont+Internal.h"; path = "iosMath/render/internal/MTFont+Internal.h"; sourceTree = "<group>"; };
+		BF00E1047BA117D30C17A327D48CD8A2 /* xits-math.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "xits-math.plist"; path = "fonts/xits-math.plist"; sourceTree = "<group>"; };
+		C3F667742005624034684804516F868C /* PopupDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialog.swift; path = PopupDialog/Classes/PopupDialog.swift; sourceTree = "<group>"; };
+		C9A0CCC169B797879E7398143BB829AF /* MTConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTConfig.h; path = iosMath/render/MTConfig.h; sourceTree = "<group>"; };
+		CAC8C06E4FA75F99EB8710C7A80746FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CBD58D2F6B7C15F0772FD398592CF181 /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationController.swift; path = PopupDialog/Classes/PresentationController.swift; sourceTree = "<group>"; };
+		CC7E12878B964C10FC84080A29D46D85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF5367D2E856AAF446B10BA2F937EB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE664AC324046B77DC2A6CEF5B1E180D /* Pods-ProbabilityProject1-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProbabilityProject1-resources.sh"; sourceTree = "<group>"; };
+		CE79F99171F3D2BB035DFB72AE70D074 /* PopupDialogDefaultButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultButtons.swift; path = PopupDialog/Classes/PopupDialogDefaultButtons.swift; sourceTree = "<group>"; };
+		D879976FD31D82242AEA1D6F65CC5DDC /* CaptureQuality.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptureQuality.swift; path = DynamicBlurView/CaptureQuality.swift; sourceTree = "<group>"; };
+		D8DAEDF7E181C14CC68A8D1DA737DE1A /* mathFonts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = mathFonts.bundle; path = "iosMath-mathFonts.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7B73CD7C6F5D357BC90C24A23D17FB /* MTTypesetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTTypesetter.h; path = iosMath/render/internal/MTTypesetter.h; sourceTree = "<group>"; };
+		DBB87692DD6EF9E039F88DD610A943CA /* ScrollableGraphViewDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableGraphViewDrawingLayer.swift; path = Classes/Drawing/ScrollableGraphViewDrawingLayer.swift; sourceTree = "<group>"; };
+		DC93100504D86FD6B13FBCF864A731CD /* Pods-ProbabilityProject1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProbabilityProject1.debug.xcconfig"; sourceTree = "<group>"; };
+		E11EDC6AD3ACB3124F05F52EFDDAEDC5 /* CGImage+Accelerate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGImage+Accelerate.swift"; path = "DynamicBlurView/CGImage+Accelerate.swift"; sourceTree = "<group>"; };
+		E37D8997F205B5684713F62F817DEC6F /* PopupDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PopupDialog.modulemap; sourceTree = "<group>"; };
+		E46F8FF10ABD5189AC064E6B90C3291A /* texgyretermes-math.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = "texgyretermes-math.otf"; path = "fonts/texgyretermes-math.otf"; sourceTree = "<group>"; };
+		EB0B53C4C27FD8F935399C99CFB7E83D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		EC4785D68DFC5A8AED4F1582232689C5 /* DynamicBlurView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicBlurView-prefix.pch"; sourceTree = "<group>"; };
+		EC9B746FA087A1EAE93399AC482C763C /* MTLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLabel.h; path = iosMath/render/MTLabel.h; sourceTree = "<group>"; };
+		EEEB9FD466587022CC0AA56C8753BF5A /* DotPlot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotPlot.swift; path = Classes/Plots/DotPlot.swift; sourceTree = "<group>"; };
+		F066316F2D6D43121AA05192775B57F5 /* DotDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotDrawingLayer.swift; path = Classes/Drawing/DotDrawingLayer.swift; sourceTree = "<group>"; };
+		F2FACBCAF5F39EAE28B3551022E35D38 /* LinePlot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinePlot.swift; path = Classes/Plots/LinePlot.swift; sourceTree = "<group>"; };
+		F36A28F49D1154E45043941C164FCA6E /* DynamicBlurView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicBlurView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D5EA79796105C05963B4D9CB80C3F9 /* UIColor+HexString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexString.m"; path = "iosMath/render/UIColor+HexString.m"; sourceTree = "<group>"; };
+		F9DDEF21E0CE6A0B3A4D0DE419A076CE /* MTMathList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTMathList.m; path = iosMath/lib/MTMathList.m; sourceTree = "<group>"; };
+		FBEA526650A7DCC0F168D4187D6E8F54 /* MTLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLabel.m; path = iosMath/render/MTLabel.m; sourceTree = "<group>"; };
+		FFDE3D7E76BA9850B3F7D0D20ED28D41 /* BlurLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurLayer.swift; path = DynamicBlurView/BlurLayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		002DC6976FFE451553166FE72ED68E9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE90381180386B8A7B6E1FFBFD983653 /* CoreGraphics.framework in Frameworks */,
+				5CCEFF8002AA2BC6644F85341EE0691D /* CoreText.framework in Frameworks */,
+				B85ADAA137335CEDDA3C7C074E69A14A /* Foundation.framework in Frameworks */,
+				CAD3FE38E609A6D7D15D1A4E45FE1E23 /* QuartzCore.framework in Frameworks */,
+				2270E26CA635D8A7510A363D21A95B32 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7070DC865DEE3DE1F89B7A8AAC249E8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665E3546BB7241010732DD59502C2A20 /* DynamicBlurView.framework in Frameworks */,
+				4427E7731DD5C19A86A90C4FD2C2CF64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81668173AE602C46A6D214E9B4F84F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C576FD079ED3EB1A5092F6F39BDF28 /* Accelerate.framework in Frameworks */,
+				46948DAFC76CE60532EB6D1C3D4D06EE /* Foundation.framework in Frameworks */,
+				6C1E56CFB256AF1C64069DA54167A8BB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97F194C56E44F6A9EE08F8E324E69F03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDE2161144DFD01034EFC245285CD01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6A7DD03DCAB0F64C989C5DFFF02524 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20BCAE3A252AD5DC6F4CE64F79A9992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FBFE99A807416D5FE5C2E887EC73BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1548943707D6C9F0B2CD7C24C0DE55B4 /* DynamicBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				FFDE3D7E76BA9850B3F7D0D20ED28D41 /* BlurLayer.swift */,
+				D879976FD31D82242AEA1D6F65CC5DDC /* CaptureQuality.swift */,
+				AFC92E518889B733FA7C71ED7DE4F7B5 /* CGContext+CGImage.swift */,
+				E11EDC6AD3ACB3124F05F52EFDDAEDC5 /* CGImage+Accelerate.swift */,
+				92EF20539E5671F64CFAFA328938FA85 /* DynamicBlurView.h */,
+				560174FB0B7E6ABC5E0894E74FBE90DB /* DynamicBlurView.swift */,
+				36AB23442340A2847B388BA916AFA88F /* TrackingMode.swift */,
+				4DFF6B3B503188DF8C671F1D15133B59 /* UIImage+Blur.swift */,
+				52B13569542508F58178294B5B83ACC5 /* Support Files */,
+			);
+			name = DynamicBlurView;
+			path = DynamicBlurView;
+			sourceTree = "<group>";
+		};
+		1E30A33F4A5841497A7EC7201FC16570 /* iosMath */ = {
+			isa = PBXGroup;
+			children = (
+				00F93988C767ACE7B988D1C317F010B1 /* IosMath.h */,
+				C9A0CCC169B797879E7398143BB829AF /* MTConfig.h */,
+				10D0C85DCD7838F5190EDA13467F9B47 /* MTFont.h */,
+				65BB071E8163B40C1F7DB738DEEB8977 /* MTFont.m */,
+				BDABAC0B55C288CAB0DE33FFBE11159A /* MTFont+Internal.h */,
+				0ECF04EB4EECA7466C84246E606FFB6C /* MTFontManager.h */,
+				8A2553DF32432E55BDF1248878415DDF /* MTFontManager.m */,
+				897543A6835F2B75F20CB1FAFA2C4869 /* MTFontMathTable.h */,
+				9FA051A1F16574F77DC0B76593591C3F /* MTFontMathTable.m */,
+				EC9B746FA087A1EAE93399AC482C763C /* MTLabel.h */,
+				FBEA526650A7DCC0F168D4187D6E8F54 /* MTLabel.m */,
+				676837B1541CB57458A7855D2537709F /* MTMathAtomFactory.h */,
+				8AE17149FBC2C1987236647C9550B929 /* MTMathAtomFactory.m */,
+				3C4396862DF4D9308177098D639C3BA4 /* MTMathList.h */,
+				F9DDEF21E0CE6A0B3A4D0DE419A076CE /* MTMathList.m */,
+				038A5D2851B4CCA765BF45902EB2F9EE /* MTMathListBuilder.h */,
+				AC6406BB3D57EAC8F96EA65CEDB9E72E /* MTMathListBuilder.m */,
+				67380C0E11AEF83E34FDB8C5DD00569C /* MTMathListDisplay.h */,
+				5F147E965C1A64034BFE596CEF7D2217 /* MTMathListDisplay.m */,
+				1DC9C21D34DCF2A64B4F00198A5E13F0 /* MTMathListDisplayInternal.h */,
+				007FBE10F175D454E568DE3621032CBC /* MTMathListIndex.h */,
+				3B15DE68B5A9D21DF4764D14D8F16ACC /* MTMathListIndex.m */,
+				5A9B46B6F9DCF3DD661F7716EA5950B5 /* MTMathUILabel.h */,
+				165732C400F685546244433E7CC813AE /* MTMathUILabel.m */,
+				DA7B73CD7C6F5D357BC90C24A23D17FB /* MTTypesetter.h */,
+				AE4F92A1FC05D7EF4BE3ABB57279ED02 /* MTTypesetter.m */,
+				40478EA435E10CD25923D514E243FEF5 /* MTUnicode.h */,
+				4C6F95DEF3367B19F36AD68C9E6A096F /* MTUnicode.m */,
+				59B210235991021070A27C361B76C317 /* NSBezierPath+addLineToPoint.h */,
+				749EC44FEAFE08C6848D1478C48250AE /* NSBezierPath+addLineToPoint.m */,
+				582C15F7ED6264FF9F652B60B25FA4C0 /* NSColor+HexString.h */,
+				783832EAE12C2FF9E20AF1F076D33390 /* NSColor+HexString.m */,
+				2A7BD84ACEC9EC9121F953CF3FB55A00 /* NSView+backgroundColor.h */,
+				8D5C656E084E08E4AB2639CCA47487DF /* NSView+backgroundColor.m */,
+				1A011974E7175A2B0B98523E82F246D4 /* UIColor+HexString.h */,
+				F6D5EA79796105C05963B4D9CB80C3F9 /* UIColor+HexString.m */,
+				73D6A3190FB9F305A949464559D51D0C /* Resources */,
+				4EA93F954F7824E539BFF20DB73330EE /* Support Files */,
+			);
+			name = iosMath;
+			path = iosMath;
+			sourceTree = "<group>";
+		};
+		2F47C16016DCBE568DD933F3881ED052 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				01C9653B0F82C1DC305FFFD4BEC52FBA /* Accelerate.framework */,
+				312E4B3565195799A8B2D9C116C10F8D /* CoreGraphics.framework */,
+				8053D7687017D783F8B4CA1905AD4647 /* CoreText.framework */,
+				BD8E72F54CE2313F66C9155A8F738315 /* Foundation.framework */,
+				EB0B53C4C27FD8F935399C99CFB7E83D /* QuartzCore.framework */,
+				CAC8C06E4FA75F99EB8710C7A80746FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4623E321483FFE6012CE7D23951B59AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5AA2EDD979F9F6D443A5561903526B8 /* DynamicBlurView.framework */,
+				425A3DC06278D69A37AC5877C64C66B4 /* iosMath.framework */,
+				D8DAEDF7E181C14CC68A8D1DA737DE1A /* mathFonts.bundle */,
+				B706CCF0103D7AD5AB7E07D8E2346121 /* Pods_ProbabilityProject1.framework */,
+				4C23215EE4B84CA0F1B037CC332D611F /* PopupDialog.framework */,
+				58F5E23D4A0A312C843840FC51B8108B /* ScrollableGraphView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EA93F954F7824E539BFF20DB73330EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCF5367D2E856AAF446B10BA2F937EB7 /* Info.plist */,
+				2B5E07186D6F4ACC33075DDEC2579799 /* iosMath.modulemap */,
+				49A033C6A2F09C010A26A2E26F19E0AD /* iosMath.xcconfig */,
+				4D45D434D9FC401B138F54DC5A9AC073 /* iosMath-dummy.m */,
+				45AC2FDFF2F44EEF82F9B67D9EA0D77F /* iosMath-prefix.pch */,
+				0EA26DD00FD836F75C8014934E58C31C /* iosMath-umbrella.h */,
+				0160D71369E4AA2994ED3B39F1DBE7CC /* ResourceBundle-mathFonts-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iosMath";
+			sourceTree = "<group>";
+		};
+		52901450D362A48A84883A2B6DEAAEAD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E12144741A2FB74B0FB23C37D8475401 /* Pods-ProbabilityProject1 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		52B13569542508F58178294B5B83ACC5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0DF3C2E7ED3965D63D49F1FCE37F9BD /* DynamicBlurView.modulemap */,
+				67BB7C14173500058C03F0E8ACFD163D /* DynamicBlurView.xcconfig */,
+				0478114D752E97D95AC6F19543D3FE81 /* DynamicBlurView-dummy.m */,
+				EC4785D68DFC5A8AED4F1582232689C5 /* DynamicBlurView-prefix.pch */,
+				721C02FFDD3374FCD29F836319467D6C /* DynamicBlurView-umbrella.h */,
+				BD0CECDE16C47BBA77533AD2C3909054 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DynamicBlurView";
+			sourceTree = "<group>";
+		};
+		5694ADA390BBAECF102CBEA6755DBAA8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B8289CBA8EB50F3041952A2C7584CA0 /* Info.plist */,
+				E37D8997F205B5684713F62F817DEC6F /* PopupDialog.modulemap */,
+				143AF7A72236E0243FE8DC01C8DD58F3 /* PopupDialog.xcconfig */,
+				AC8D1DE75008D18DCE3AAD17FC3734EE /* PopupDialog-dummy.m */,
+				12F9226A4949236DDD9D57D2526E96D8 /* PopupDialog-prefix.pch */,
+				38448D9619145CD0C9AEA54C52D482E7 /* PopupDialog-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PopupDialog";
+			sourceTree = "<group>";
+		};
+		6DF772AAA3EE6DC3E3028F74B4A30842 /* PopupDialog */ = {
+			isa = PBXGroup;
+			children = (
+				88395591700822406B7210E5E5F87595 /* InteractiveTransition.swift */,
+				C3F667742005624034684804516F868C /* PopupDialog.swift */,
+				A19A668CD88D143113035424BA4690C0 /* PopupDialog+Keyboard.swift */,
+				69D8710D15CF96275EBD60B7A05D1A02 /* PopupDialogButton.swift */,
+				4293C5085B60995BA931D89BF97642CB /* PopupDialogContainerView.swift */,
+				CE79F99171F3D2BB035DFB72AE70D074 /* PopupDialogDefaultButtons.swift */,
+				BC165D23A0BBA87685A1E6B00A4EF3B5 /* PopupDialogDefaultView.swift */,
+				6659213719B0D7942AF574D4D2B6349F /* PopupDialogDefaultViewController.swift */,
+				2F6CE2AECEBE963EF5B9537ADB61FBCD /* PopupDialogOverlayView.swift */,
+				CBD58D2F6B7C15F0772FD398592CF181 /* PresentationController.swift */,
+				53301BBD50A645C307B91820C64CC932 /* PresentationManager.swift */,
+				A1AA9BAE9BCB0594EF1117C61612683A /* TransitionAnimations.swift */,
+				4880D8C4A2112F4D360D213496A1D740 /* TransitionAnimator.swift */,
+				33A790B7132C2BC4F305112366D244BD /* UIImageView+Calculations.swift */,
+				59FC03089F823BBDC18A227653EA5659 /* UIView+Animations.swift */,
+				9BA07FD9307EA553D4CCDDCE04C54C1A /* UIViewController+Visibility.swift */,
+				5694ADA390BBAECF102CBEA6755DBAA8 /* Support Files */,
+			);
+			name = PopupDialog;
+			path = PopupDialog;
+			sourceTree = "<group>";
+		};
+		73D6A3190FB9F305A949464559D51D0C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				022DA20D9F01EF95A80D1030C8C6243E /* latinmodern-math.otf */,
+				7D8FFDB0545179455D566BCD13B9120D /* latinmodern-math.plist */,
+				E46F8FF10ABD5189AC064E6B90C3291A /* texgyretermes-math.otf */,
+				60BB2501E79F69027453E3CF1CF0A342 /* texgyretermes-math.plist */,
+				19BC4B9B9AFC6F6411EAC962CDDD4167 /* xits-math.otf */,
+				BF00E1047BA117D30C17A327D48CD8A2 /* xits-math.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				AE50D0DAA42A9F3956784DBDE128E00B /* Frameworks */,
+				8030DAD629CE876F94B3D94BBD1BA9E0 /* Pods */,
+				4623E321483FFE6012CE7D23951B59AB /* Products */,
+				52901450D362A48A84883A2B6DEAAEAD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8030DAD629CE876F94B3D94BBD1BA9E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1548943707D6C9F0B2CD7C24C0DE55B4 /* DynamicBlurView */,
+				1E30A33F4A5841497A7EC7201FC16570 /* iosMath */,
+				6DF772AAA3EE6DC3E3028F74B4A30842 /* PopupDialog */,
+				C7D87D2EEC1524A62AF547339C24FA60 /* ScrollableGraphView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE50D0DAA42A9F3956784DBDE128E00B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F36A28F49D1154E45043941C164FCA6E /* DynamicBlurView.framework */,
+				2F47C16016DCBE568DD933F3881ED052 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C65B6B71AE220AF8683B3DFCCAEA0274 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F208A1FD5B1E38ADB1887C3F0F15CC1 /* Info.plist */,
+				48305973155E79A93BB2C51FB17BD6DA /* ScrollableGraphView.modulemap */,
+				35CB438F58C6310569848BED4F674E44 /* ScrollableGraphView.xcconfig */,
+				2244D810F2010C66342F9068509B2BA6 /* ScrollableGraphView-dummy.m */,
+				078A993F1856329125EEB135DD53B8DD /* ScrollableGraphView-prefix.pch */,
+				5C2BEFE42E2F738841FAF38B31A25386 /* ScrollableGraphView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ScrollableGraphView";
+			sourceTree = "<group>";
+		};
+		C7D87D2EEC1524A62AF547339C24FA60 /* ScrollableGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				B0DD2D5A62385717E477A65D551C54FD /* BarDrawingLayer.swift */,
+				854AB99459BE71F372F040208378F3A7 /* BarPlot.swift */,
+				F066316F2D6D43121AA05192775B57F5 /* DotDrawingLayer.swift */,
+				EEEB9FD466587022CC0AA56C8753BF5A /* DotPlot.swift */,
+				186F5802AD64C58D59CD6F17723322C3 /* FillDrawingLayer.swift */,
+				A6A3C6E785A882A76C4A8E5116D2218B /* GradientDrawingLayer.swift */,
+				A0F55D59545A24C404AAECA594B3CD90 /* GraphPoint.swift */,
+				24E5B7A5E57C5B1C3AFD954879057369 /* GraphPointAnimation.swift */,
+				802E2340BAA7444B680E0A65C3C948CA /* LabelPool.swift */,
+				6B5CB2FFE4260BCFF399491A518851CE /* LineDrawingLayer.swift */,
+				F2FACBCAF5F39EAE28B3551022E35D38 /* LinePlot.swift */,
+				1C16064D8A5278B32903B048EB73252A /* Plot.swift */,
+				994CE55ABC43614CBF035F634145BFFB /* ReferenceLineDrawingView.swift */,
+				2BA26B68F83A2AA988A24FCEA02E0964 /* ReferenceLines.swift */,
+				8844DE9B7ED186B535F1C4B5E980162F /* ScrollableGraphView.swift */,
+				2BE98D78AF2388E5DE4DDC6E18359C0A /* ScrollableGraphViewDataSource.swift */,
+				3C29EF2C116E1385227AE67201D06450 /* ScrollableGraphViewDrawingDelegate.swift */,
+				DBB87692DD6EF9E039F88DD610A943CA /* ScrollableGraphViewDrawingLayer.swift */,
+				C65B6B71AE220AF8683B3DFCCAEA0274 /* Support Files */,
+			);
+			name = ScrollableGraphView;
+			path = ScrollableGraphView;
+			sourceTree = "<group>";
+		};
+		E12144741A2FB74B0FB23C37D8475401 /* Pods-ProbabilityProject1 */ = {
+			isa = PBXGroup;
+			children = (
+				CC7E12878B964C10FC84080A29D46D85 /* Info.plist */,
+				935EB8BD4B226236A1E5D2A96F92B806 /* Pods-ProbabilityProject1.modulemap */,
+				5ED5BAD0C1A59DD1BE82E6790489348E /* Pods-ProbabilityProject1-acknowledgements.markdown */,
+				752F67290CF90B7A6F4AAC8AF33710A0 /* Pods-ProbabilityProject1-acknowledgements.plist */,
+				A6BB64B764F914C97DCEC61A81280139 /* Pods-ProbabilityProject1-dummy.m */,
+				588ED75C18FB2664C89916E41C58DCB4 /* Pods-ProbabilityProject1-frameworks.sh */,
+				CE664AC324046B77DC2A6CEF5B1E180D /* Pods-ProbabilityProject1-resources.sh */,
+				794BB1BD6521EC3A723F099AF862B424 /* Pods-ProbabilityProject1-umbrella.h */,
+				DC93100504D86FD6B13FBCF864A731CD /* Pods-ProbabilityProject1.debug.xcconfig */,
+				39793B044EFEFB4DA2F9DBA8C4F4762A /* Pods-ProbabilityProject1.release.xcconfig */,
+			);
+			name = "Pods-ProbabilityProject1";
+			path = "Target Support Files/Pods-ProbabilityProject1";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18EF0BA757A9105D8891CE7D7728C1D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C52440D21838C1CF1448A4E9C66099B /* PopupDialog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A5D4A48B6A48CCD7D6EF1D44CD4E01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46DF437994FCB34396E2022EC0DD70B /* Pods-ProbabilityProject1-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5780D23677E756CCB12940F250B0F6FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD95819A67825305691F9D03A1477E3 /* DynamicBlurView-umbrella.h in Headers */,
+				2F6D143061A37F1799C4E9E70178679C /* DynamicBlurView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A88019F8D610E5175778CD2389F980C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0FFB0293BB37BFB9D5980BB2E4EFAD /* iosMath-umbrella.h in Headers */,
+				DF8328E83B499955E1E720CF5CABD073 /* IosMath.h in Headers */,
+				7712EC2BCCF93BDC4DA2A6E1F69ECECE /* MTConfig.h in Headers */,
+				91BB115206E501BF66351EE8C1130509 /* MTFont+Internal.h in Headers */,
+				D638FDBD8E1B42730BF21A96957E6333 /* MTFont.h in Headers */,
+				4FED369F179E9D7F1148277C3E19327D /* MTFontManager.h in Headers */,
+				BF9AA245DD1FDF5F7403B063BA73F6DE /* MTFontMathTable.h in Headers */,
+				12B64D1492C171CCD24BF8F3192936EC /* MTLabel.h in Headers */,
+				A962531423E2DDB49B6C6F9EC8FB0B23 /* MTMathAtomFactory.h in Headers */,
+				B3C2AC70552A3CC2025F634FA68166F3 /* MTMathList.h in Headers */,
+				8A59895B998232336892E32BD096DC78 /* MTMathListBuilder.h in Headers */,
+				1228AD9F0B154CCB78AD3799321ABA38 /* MTMathListDisplay.h in Headers */,
+				0569129A73F4CCBFAC5EACCF2ACD9378 /* MTMathListDisplayInternal.h in Headers */,
+				1E58057D86D62940950F189FA7FC5A96 /* MTMathListIndex.h in Headers */,
+				8B3D8E565618EEE0C9D89D01647A48F3 /* MTMathUILabel.h in Headers */,
+				D7BD219908E82FB0172EC968207DA53F /* MTTypesetter.h in Headers */,
+				0A2C8E9B279C99DF721711DEFEFE7C7F /* MTUnicode.h in Headers */,
+				13D9CA9195B99258A31998AC19E00F0D /* NSBezierPath+addLineToPoint.h in Headers */,
+				D7D27E45B3C991BF009F9DA45040E32D /* NSColor+HexString.h in Headers */,
+				5D74114FF0995C785F41BC997970809B /* NSView+backgroundColor.h in Headers */,
+				40004858D2D5D91753A668F7807EDA0E /* UIColor+HexString.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2E7B9BCE5A69C52D661FBF6644AFD68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD85322A3EC0BE6E926A0FF7C2EA860B /* ScrollableGraphView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		31F8DDD8C30766AD7119207C1E552FFC /* ScrollableGraphView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1409B67FE454CE165C875E1EB36E8F5 /* Build configuration list for PBXNativeTarget "ScrollableGraphView" */;
+			buildPhases = (
+				57987167F96E77A5403DDE5A805BD83C /* Sources */,
+				ABDE2161144DFD01034EFC245285CD01 /* Frameworks */,
+				A2E7B9BCE5A69C52D661FBF6644AFD68 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollableGraphView;
+			productName = ScrollableGraphView;
+			productReference = 58F5E23D4A0A312C843840FC51B8108B /* ScrollableGraphView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5CD0FEB7EF1FA45DA48BDF24901E27B7 /* PopupDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2234B456A7999152612F42F969541569 /* Build configuration list for PBXNativeTarget "PopupDialog" */;
+			buildPhases = (
+				1C0802A4A2CCC3586535EEEE48CF1105 /* Sources */,
+				7070DC865DEE3DE1F89B7A8AAC249E8F /* Frameworks */,
+				18EF0BA757A9105D8891CE7D7728C1D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C91E56E8369EF311CC667E9C7C764999 /* PBXTargetDependency */,
+			);
+			name = PopupDialog;
+			productName = PopupDialog;
+			productReference = 4C23215EE4B84CA0F1B037CC332D611F /* PopupDialog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8557268D5B6D294F53672DFF72FFE05F /* Pods-ProbabilityProject1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 565CAEA5ADE42EE56C368A368CCA02A2 /* Build configuration list for PBXNativeTarget "Pods-ProbabilityProject1" */;
+			buildPhases = (
+				A2DEAC542DF5CB724043405C2ED0E4F7 /* Sources */,
+				B20BCAE3A252AD5DC6F4CE64F79A9992 /* Frameworks */,
+				46A5D4A48B6A48CCD7D6EF1D44CD4E01 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2905A0630C86DE8ED6257EB096E134AB /* PBXTargetDependency */,
+				E06582DFE7D9020EFC24855EBAA53031 /* PBXTargetDependency */,
+				7780C8B75387F89906A386D668F38713 /* PBXTargetDependency */,
+				F9372B0BBE02A7872963BDEB65F2C20F /* PBXTargetDependency */,
+			);
+			name = "Pods-ProbabilityProject1";
+			productName = "Pods-ProbabilityProject1";
+			productReference = B706CCF0103D7AD5AB7E07D8E2346121 /* Pods_ProbabilityProject1.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9AD6E417B292CCB529632F0FA6F2EFEC /* DynamicBlurView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1B3C8A74EE5F0BA8EEA33D98DC56D1 /* Build configuration list for PBXNativeTarget "DynamicBlurView" */;
+			buildPhases = (
+				2343253744ADE559BBDEC4EC41F51B6D /* Sources */,
+				81668173AE602C46A6D214E9B4F84F91 /* Frameworks */,
+				5780D23677E756CCB12940F250B0F6FD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicBlurView;
+			productName = DynamicBlurView;
+			productReference = B5AA2EDD979F9F6D443A5561903526B8 /* DynamicBlurView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B9836C06662F6AF26CF13501848D275 /* iosMath-mathFonts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 872852C40DED47C7FE74D31A551F490A /* Build configuration list for PBXNativeTarget "iosMath-mathFonts" */;
+			buildPhases = (
+				25C28BE32341DC425CED7D9F0D678BF3 /* Sources */,
+				97F194C56E44F6A9EE08F8E324E69F03 /* Frameworks */,
+				FD7599278E3132BA1466752088303CED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iosMath-mathFonts";
+			productName = "iosMath-mathFonts";
+			productReference = D8DAEDF7E181C14CC68A8D1DA737DE1A /* mathFonts.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E5B2F702A8B0B2E4FE2AF5DD816057E7 /* iosMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39AA236A0DC28D1EB46C09EFF233564B /* Build configuration list for PBXNativeTarget "iosMath" */;
+			buildPhases = (
+				1D76559F2C773EA0A1F07D58D7AC9B26 /* Sources */,
+				002DC6976FFE451553166FE72ED68E9B /* Frameworks */,
+				F5F580BB02C8A0B2F75B2567C5BFCAB0 /* Resources */,
+				5A88019F8D610E5175778CD2389F980C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24C1EDAFEC84D6491EDA0F47B572CF1E /* PBXTargetDependency */,
+			);
+			name = iosMath;
+			productName = iosMath;
+			productReference = 425A3DC06278D69A37AC5877C64C66B4 /* iosMath.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4623E321483FFE6012CE7D23951B59AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AD6E417B292CCB529632F0FA6F2EFEC /* DynamicBlurView */,
+				E5B2F702A8B0B2E4FE2AF5DD816057E7 /* iosMath */,
+				9B9836C06662F6AF26CF13501848D275 /* iosMath-mathFonts */,
+				8557268D5B6D294F53672DFF72FFE05F /* Pods-ProbabilityProject1 */,
+				5CD0FEB7EF1FA45DA48BDF24901E27B7 /* PopupDialog */,
+				31F8DDD8C30766AD7119207C1E552FFC /* ScrollableGraphView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5F580BB02C8A0B2F75B2567C5BFCAB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1F92D0762FD1421494AD4495B56D02 /* mathFonts.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7599278E3132BA1466752088303CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03E6526671FBEC932CDB823CF120C05 /* latinmodern-math.otf in Resources */,
+				B84181E34A1DE69138863445C3487A7E /* latinmodern-math.plist in Resources */,
+				6C8A47148EBD541AC12C11E60C51EF12 /* texgyretermes-math.otf in Resources */,
+				28ED3A0B865E123C4771247A91948365 /* texgyretermes-math.plist in Resources */,
+				C0A3B092E1F2A5BBE005A99C8E2D34F8 /* xits-math.otf in Resources */,
+				F3E07CDB17F36B181258FEB75A790849 /* xits-math.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C0802A4A2CCC3586535EEEE48CF1105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5CD7A6FA33927CB1E772E0F50C5EB3 /* InteractiveTransition.swift in Sources */,
+				D4FC6C3FDE71A50CF6EF7C2314842EDB /* PopupDialog+Keyboard.swift in Sources */,
+				8E03F6BE20C39B0BE0BAF955A2B4596D /* PopupDialog-dummy.m in Sources */,
+				81F978B8EC3ABDF403F25BCE95A66B4B /* PopupDialog.swift in Sources */,
+				C2F508F5484662EE4947509BC8B426AE /* PopupDialogButton.swift in Sources */,
+				1070F737EBE68FA4C52ABB9CFF82557D /* PopupDialogContainerView.swift in Sources */,
+				B5FBBD6417C5D368D22AC02A965CAE6D /* PopupDialogDefaultButtons.swift in Sources */,
+				597729D737391573A57C9AF8D30E2626 /* PopupDialogDefaultView.swift in Sources */,
+				B1794FAA02443F2E381EF8B0D3581DDA /* PopupDialogDefaultViewController.swift in Sources */,
+				7FB297871262D6B48318325D699CE2DA /* PopupDialogOverlayView.swift in Sources */,
+				0E6D40D822484D9D37151A640247A50D /* PresentationController.swift in Sources */,
+				CB605661EB846D7516A2A2751F00892F /* PresentationManager.swift in Sources */,
+				343D35ABA728B4C88F447B46989ABF4A /* TransitionAnimations.swift in Sources */,
+				25CAFA35B0F1DA308A8ED1378277F8B4 /* TransitionAnimator.swift in Sources */,
+				38BEB4DB4CD2868FFB8423CC89BF3B6A /* UIImageView+Calculations.swift in Sources */,
+				8E91BAFC90BF1360D36006CD4267872C /* UIView+Animations.swift in Sources */,
+				53FAB5D3C67126430AA48FD307FE912D /* UIViewController+Visibility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D76559F2C773EA0A1F07D58D7AC9B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B3BF994E3D6D80EB8F3445347A41D4 /* iosMath-dummy.m in Sources */,
+				F66294E94F125ADE253B7D65C67D0754 /* MTFont.m in Sources */,
+				345ED928F89929FF0C0BDE7F03E28C73 /* MTFontManager.m in Sources */,
+				9FEBBD97E5221D1FFD9F76EF8DA0B20D /* MTFontMathTable.m in Sources */,
+				F3C49220F0A9F340CF968F2383991F88 /* MTLabel.m in Sources */,
+				15422D71098AD0862AE4119D739C075E /* MTMathAtomFactory.m in Sources */,
+				EF134C47FA11A70DB831CEF726F99C6B /* MTMathList.m in Sources */,
+				9832BE8BC2653B41124DC5360482D1E9 /* MTMathListBuilder.m in Sources */,
+				7C4732379298E1D5EB259E97B75A55B4 /* MTMathListDisplay.m in Sources */,
+				8237D2C7CA0BAA6702DFEFC18156C6FE /* MTMathListIndex.m in Sources */,
+				9B4C90885CF053F41318A1670C86CD6F /* MTMathUILabel.m in Sources */,
+				9D4F71C5ED696ECF7EE08CC4FC7E320F /* MTTypesetter.m in Sources */,
+				2E82EC8E7E191BB01B06896A5878EAEE /* MTUnicode.m in Sources */,
+				DDF7FE8E1BD267A3C40BCF279E383676 /* NSBezierPath+addLineToPoint.m in Sources */,
+				291DAF3612ECDA472EDFE4AE52B35D01 /* NSColor+HexString.m in Sources */,
+				360DF25B3613FC65E4AE08EBDD701A78 /* NSView+backgroundColor.m in Sources */,
+				FEE2C6E9682BFC48EF9F3DC176F4A29D /* UIColor+HexString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2343253744ADE559BBDEC4EC41F51B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9584B98DAE3E860B6AB5EA9781DC7057 /* BlurLayer.swift in Sources */,
+				72763BA40BBEB214F29FF33DE5FB907C /* CaptureQuality.swift in Sources */,
+				FB5CECAD4729CF846E332E692D1673B1 /* CGContext+CGImage.swift in Sources */,
+				5D19BAE8B0155836806C26876E2F812A /* CGImage+Accelerate.swift in Sources */,
+				0F979D0A878062EA1DFD82B4ACE22C01 /* DynamicBlurView-dummy.m in Sources */,
+				608FF6E4BCB0660D1D6D9DB0FF6B22FC /* DynamicBlurView.swift in Sources */,
+				C2DB0E4B4EC4B4DF8EA4B96FB78FBA99 /* TrackingMode.swift in Sources */,
+				82BD34CDF279D0AC1810CDE02EF4C156 /* UIImage+Blur.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C28BE32341DC425CED7D9F0D678BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57987167F96E77A5403DDE5A805BD83C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C2A731A25088CCD015D7FC788B31DE /* BarDrawingLayer.swift in Sources */,
+				AE8577599D6E3739E47E6A99E5A8B51E /* BarPlot.swift in Sources */,
+				17E3DD6AEE7AB28B265FE2608706BB9B /* DotDrawingLayer.swift in Sources */,
+				9A84633A4F3FA1B4C01F969F074B9F6F /* DotPlot.swift in Sources */,
+				11335AF651D7CE99BC7775A05F84FC2C /* FillDrawingLayer.swift in Sources */,
+				3448D8A3D10EF20FD4AB10070A211F53 /* GradientDrawingLayer.swift in Sources */,
+				D4676C5CFBFC4FA7225A9C8D4A74C205 /* GraphPoint.swift in Sources */,
+				953B1521BC900940EAA32BEFB5F8B55F /* GraphPointAnimation.swift in Sources */,
+				98ED3314C49686204911BF0429078FE4 /* LabelPool.swift in Sources */,
+				2BFD0E9FE1043E956F6D321F6699F42A /* LineDrawingLayer.swift in Sources */,
+				C7ECA402896A22B10C8D7E5D18670103 /* LinePlot.swift in Sources */,
+				9BC5A7CEF1FBF9E02C9C412DF84D5103 /* Plot.swift in Sources */,
+				6A47F003A84A7C856CCBFBE1EE82C8BD /* ReferenceLineDrawingView.swift in Sources */,
+				61D2241036E64E0CE53C3FBF397F99FD /* ReferenceLines.swift in Sources */,
+				D8449F714B62261A8990DB90D0B1475E /* ScrollableGraphView-dummy.m in Sources */,
+				A521A12A909725FD66A5D7F5287BE726 /* ScrollableGraphView.swift in Sources */,
+				068B18E0283677F98A852ACDA5BD9906 /* ScrollableGraphViewDataSource.swift in Sources */,
+				1E43A2F7FDCA05DFAA491CA06586DFB6 /* ScrollableGraphViewDrawingDelegate.swift in Sources */,
+				FE23CBBED482856FFEEEE6AED8BF92A1 /* ScrollableGraphViewDrawingLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DEAC542DF5CB724043405C2ED0E4F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84C11B55DC11CCD17CF8F32C5CDAA29 /* Pods-ProbabilityProject1-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24C1EDAFEC84D6491EDA0F47B572CF1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "iosMath-mathFonts";
+			target = 9B9836C06662F6AF26CF13501848D275 /* iosMath-mathFonts */;
+			targetProxy = DDF7C1A1C905720CE4A49027041AB104 /* PBXContainerItemProxy */;
+		};
+		2905A0630C86DE8ED6257EB096E134AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicBlurView;
+			target = 9AD6E417B292CCB529632F0FA6F2EFEC /* DynamicBlurView */;
+			targetProxy = 8A1AECC31ED4918F0F3EDAD64CAA76D7 /* PBXContainerItemProxy */;
+		};
+		7780C8B75387F89906A386D668F38713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ScrollableGraphView;
+			target = 31F8DDD8C30766AD7119207C1E552FFC /* ScrollableGraphView */;
+			targetProxy = 4CD53B7DAE85022A188C7AF47DA2E7E0 /* PBXContainerItemProxy */;
+		};
+		C91E56E8369EF311CC667E9C7C764999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicBlurView;
+			target = 9AD6E417B292CCB529632F0FA6F2EFEC /* DynamicBlurView */;
+			targetProxy = E92AEA5BE3E68D1F18640F84F058492C /* PBXContainerItemProxy */;
+		};
+		E06582DFE7D9020EFC24855EBAA53031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopupDialog;
+			target = 5CD0FEB7EF1FA45DA48BDF24901E27B7 /* PopupDialog */;
+			targetProxy = 86C78BB9E0F81B78E525B492B696A682 /* PBXContainerItemProxy */;
+		};
+		F9372B0BBE02A7872963BDEB65F2C20F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iosMath;
+			target = E5B2F702A8B0B2E4FE2AF5DD816057E7 /* iosMath */;
+			targetProxy = 2507C96826918DA29B95E8AA88C1D50F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03E92BFEA0009EA89F95B7D062C3A9A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35CB438F58C6310569848BED4F674E44 /* ScrollableGraphView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScrollableGraphView/ScrollableGraphView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScrollableGraphView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScrollableGraphView/ScrollableGraphView.modulemap";
+				PRODUCT_NAME = ScrollableGraphView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0414FAE5BC22B0AD8820D02636C594CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39793B044EFEFB4DA2F9DBA8C4F4762A /* Pods-ProbabilityProject1.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProbabilityProject1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProbabilityProject1/Pods-ProbabilityProject1.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ProbabilityProject1;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2854CA546900490AC625A6CB0F9CB781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		31F4615265D12D46C0C633940A583953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67BB7C14173500058C03F0E8ACFD163D /* DynamicBlurView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicBlurView/DynamicBlurView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicBlurView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DynamicBlurView/DynamicBlurView.modulemap";
+				PRODUCT_NAME = DynamicBlurView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5C6CDC45CC596E6B55CB1668E2EAF22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143AF7A72236E0243FE8DC01C8DD58F3 /* PopupDialog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90416772A7D63B4D79B11ED2FF511348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67BB7C14173500058C03F0E8ACFD163D /* DynamicBlurView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicBlurView/DynamicBlurView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicBlurView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DynamicBlurView/DynamicBlurView.modulemap";
+				PRODUCT_NAME = DynamicBlurView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ACBA17EE8AFFEDA3B0BDEBA140C9A853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A033C6A2F09C010A26A2E26F19E0AD /* iosMath.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/iosMath";
+				INFOPLIST_FILE = "Target Support Files/iosMath/ResourceBundle-mathFonts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = mathFonts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B45F8C18361C0DE338568FA9273FF6BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC93100504D86FD6B13FBCF864A731CD /* Pods-ProbabilityProject1.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProbabilityProject1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProbabilityProject1/Pods-ProbabilityProject1.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ProbabilityProject1;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6E16E37D1A34E2E4A83705233D2E439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A033C6A2F09C010A26A2E26F19E0AD /* iosMath.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/iosMath";
+				INFOPLIST_FILE = "Target Support Files/iosMath/ResourceBundle-mathFonts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = mathFonts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B954B3611475C5FB1B7E78122CB8497C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C31E40EBFC2E247858EBC99CA47B3113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A033C6A2F09C010A26A2E26F19E0AD /* iosMath.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iosMath/iosMath-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iosMath/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iosMath/iosMath.modulemap";
+				PRODUCT_NAME = iosMath;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF0147B1DFBA1CEC3A0C0B27B2FA4F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A033C6A2F09C010A26A2E26F19E0AD /* iosMath.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iosMath/iosMath-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iosMath/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iosMath/iosMath.modulemap";
+				PRODUCT_NAME = iosMath;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2719FFA613F47525E878B28D803E87C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35CB438F58C6310569848BED4F674E44 /* ScrollableGraphView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScrollableGraphView/ScrollableGraphView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScrollableGraphView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScrollableGraphView/ScrollableGraphView.modulemap";
+				PRODUCT_NAME = ScrollableGraphView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDB430124FD0FC9281C4C6026B07E3A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143AF7A72236E0243FE8DC01C8DD58F3 /* PopupDialog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2234B456A7999152612F42F969541569 /* Build configuration list for PBXNativeTarget "PopupDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB430124FD0FC9281C4C6026B07E3A0 /* Debug */,
+				5C6CDC45CC596E6B55CB1668E2EAF22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B954B3611475C5FB1B7E78122CB8497C /* Debug */,
+				2854CA546900490AC625A6CB0F9CB781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39AA236A0DC28D1EB46C09EFF233564B /* Build configuration list for PBXNativeTarget "iosMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0147B1DFBA1CEC3A0C0B27B2FA4F40 /* Debug */,
+				C31E40EBFC2E247858EBC99CA47B3113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		565CAEA5ADE42EE56C368A368CCA02A2 /* Build configuration list for PBXNativeTarget "Pods-ProbabilityProject1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B45F8C18361C0DE338568FA9273FF6BD /* Debug */,
+				0414FAE5BC22B0AD8820D02636C594CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		872852C40DED47C7FE74D31A551F490A /* Build configuration list for PBXNativeTarget "iosMath-mathFonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E16E37D1A34E2E4A83705233D2E439 /* Debug */,
+				ACBA17EE8AFFEDA3B0BDEBA140C9A853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF1B3C8A74EE5F0BA8EEA33D98DC56D1 /* Build configuration list for PBXNativeTarget "DynamicBlurView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90416772A7D63B4D79B11ED2FF511348 /* Debug */,
+				31F4615265D12D46C0C633940A583953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1409B67FE454CE165C875E1EB36E8F5 /* Build configuration list for PBXNativeTarget "ScrollableGraphView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E92BFEA0009EA89F95B7D062C3A9A3 /* Debug */,
+				F2719FFA613F47525E878B28D803E87C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
